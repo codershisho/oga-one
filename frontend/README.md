@@ -1,42 +1,74 @@
-# Nuxt 3 Minimal Starter
+# oga-one
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## メニュー
 
-## Setup
+- 月次面談
+- メッセージボード
+- 通知
+- メンバー（人毎）
+  - 今後の 1on1
+    - 日程調整
+    - Agenda（テーマ）
+      - ※ここからさらに細分化
+      - 業務の進捗や進め方
+      - 人間関係
+      - 心身の状態
+      - 今後のキャリア
+        - 具体的なアドバイスがほしい
+        - 一緒に考えてほしい
+        - 話を聞いてほしい
+        - 意見を聞きたい
+        - 報告したい
+        - その他
+        - 事前メモ
+      - スキルや力の向上
+      - プライベート
+      - 会社や部署の方針
+      - 他のトピックを作成
+  - 1on1 履歴
+  - 1on1 メモ
+  - ToDo
+    - 1on1 で発生した ToDo を管理
+  - メッセージ
+  - 特性
+  - すり合わせ
+  - プロフィール（カード形式）
+    - 名前
+    - 一言
+    - 1on1 の次回実施日時
+    - 1on1 の前回実施日時
+    - ToDo の進捗状況（リーダー分）
+    - ToDo の進捗状況（メンバー分）
+    - その他基本情報
 
-Make sure to install the dependencies:
+## メニュー
 
-```bash
-# yarn
-yarn install
+- プロフィール
 
-# npm
-npm install
+---
 
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- メッセージ
+- カレンダー
+  - ここで日程案送信
+  - OK の場合
+    - そのまま
+    - メッセージで OK 通知
+  - NG の場合
+    - メッセージで再調整依頼
+- 1on1 履歴
+  - 予定されているもの、過去のものを一覧で表示
+    - 予定されているものを選択してトピックを選択していく流れ
+    - 過去が選択されたらその時の 1on1 の情報を表示
+- ToDo
+  - 1on1 で発生した ToDo を管理
+  - マネージャーは全員分参照
+- メンバー管理（マネージャーのみ）
+  - 各メンバー情報を表示
+    - プロフィール（カード形式）
+      - 名前
+      - 一言
+      - 1on1 の次回実施日時
+      - 1on1 の前回実施日時
+      - ToDo の進捗状況（リーダー分）
+      - ToDo の進捗状況（メンバー分）
+      - その他基本情報
